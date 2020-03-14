@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32665" started-at="2020-03-14T00:27:31Z" finished-at="2020-03-14T00:28:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32665" started-at="2020-03-14T00:27:31Z" finished-at="2020-03-14T00:28:03Z">
+      <class name="com.hubspot.tests.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hubspot.tests.LoginPageTest@6b5966e1]" name="setUp" is-config="true" duration-ms="7559" started-at="2020-03-14T00:27:31Z" finished-at="2020-03-14T00:27:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getTitle()[pri:1, instance:com.hubspot.tests.LoginPageTest@6b5966e1]" name="getTitle" duration-ms="56" started-at="2020-03-14T00:27:39Z" description="Hubspot Login get title" finished-at="2020-03-14T00:27:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspot.tests.LoginPageTest@6b5966e1]" name="tearDown" is-config="true" duration-ms="114" started-at="2020-03-14T00:27:39Z" finished-at="2020-03-14T00:27:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hubspot.tests.LoginPageTest -->
+      <class name="com.hubspot.tests.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hubspot.tests.HomePageTest@1568159]" name="setUp" is-config="true" duration-ms="12887" started-at="2020-03-14T00:27:50Z" finished-at="2020-03-14T00:28:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:1, instance:com.hubspot.tests.HomePageTest@1568159]" name="verifyHomePageTitle" duration-ms="14" started-at="2020-03-14T00:28:03Z" description="home Page title" finished-at="2020-03-14T00:28:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspot.tests.HomePageTest@1568159]" name="tearDown" is-config="true" duration-ms="155" started-at="2020-03-14T00:28:03Z" finished-at="2020-03-14T00:28:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hubspot.tests.HomePageTest -->
+      <class name="com.hubspot.tests.ContactsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hubspot.tests.ContactsPageTest@65e61854]" name="setUp" is-config="true" duration-ms="11178" started-at="2020-03-14T00:27:39Z" finished-at="2020-03-14T00:27:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyContactsPage()[pri:1, instance:com.hubspot.tests.ContactsPageTest@65e61854]" name="verifyContactsPage" duration-ms="25" started-at="2020-03-14T00:27:50Z" finished-at="2020-03-14T00:27:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspot.tests.ContactsPageTest@65e61854]" name="tearDown" is-config="true" duration-ms="191" started-at="2020-03-14T00:27:50Z" finished-at="2020-03-14T00:27:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hubspot.tests.ContactsPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
